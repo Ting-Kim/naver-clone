@@ -1,8 +1,22 @@
 @charset "UTF-8";
 
+.entire {
+  overflow: hidden;
+  min-width: 1190px;
+}
+
+.header-area {
+  position: relative;
+  width: 1130px;
+  padding: 0 30px;
+  height: 100%;
+  margin: 0 auto;
+}
 /* header & top-nav */
 .tool-bar {
-  padding-top: 5px;
+  position: absolute;
+  top: 12px;
+  /* right: 27px; */
   float: right;
   display: flex;
   justify-content: space-between;
@@ -28,10 +42,12 @@
 }
 
 .header {
+  position: relative;
+  width: 1130px;
   display: flex;
   padding: 25px 0px;
-  margin-bottom: 10px;
-  margin-left: 370px;
+  margin: 0 auto;
+  /* margin-bottom: 10px; */
   background-color: white;
 }
 .logo {
@@ -39,10 +55,42 @@
   height: 66px; */
 }
 .search-window {
-  margin-left: 25px;
+  padding: 3px 0px;
+  margin-top: 20px;
+  margin-left: 12px;
+  font-size: 24px;
+  height: 50px;
+  width: 585px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid limegreen;
+}
+.search-window input {
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  display: block;
+  width: 462px;
+  outline: none;
+}
+.search-window-icon {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
+.search-window i {
+  margin-left: 10px;
+}
+.search-icon__search {
+  margin-left: 10px;
+  padding: 7px 7px;
+  font-size: 24px;
+  background-color: limegreen;
+  color: white;
+}
 .top-nav {
+  position: relative;
   padding: 16px 0px;
   text-align: center;
   justify-content: space-between;
@@ -53,13 +101,17 @@
   text-decoration: none;
 }
 .green-nav {
-  color: greenyellow;
+  color: limegreen;
 }
 
 /* body */
 .body {
-  margin-top: 20px;
-  margin-left: 370px;
+  /* margin-top: 20px;
+  margin-left: 370px; */
+  position: relative;
+  width: 1130px;
+  margin: 0 auto;
+  padding: 20px 0;
   background-color: white;
   display: flex;
 }
@@ -73,7 +125,6 @@
 .main-notice {
   width: 750px;
   height: 135px;
-  border: 1px solid gray;
 }
 
 .news-box {
@@ -130,5 +181,5 @@
 .marketing-box {
   width: 350px;
   height: 200px;
-  border: 1px solid gray;
+  border: none;
 }
