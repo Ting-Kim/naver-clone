@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+/* header & top-nav */
+.tool-bar {
+  padding-top: 5px;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  background-color: white;
+}
+.tool-bar-1 {
+  /* padding: 0 20px; */
+  /* margin-left: 0px; */
+  text-decoration: none; /*왜 적용이 안돼*/
+  background-color: white;
+}
+.tool-bar-2 {
+  padding: 0 10px;
+  border-left: 0.5px solid gray;
+  margin-left: 10px;
+  background-color: white;
+}
+.tool-bar-3 {
+  padding: 0 10px;
+  border-left: 0.5px solid gray;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  padding: 25px 0px;
+  margin-bottom: 10px;
+  margin-left: 370px;
+  background-color: white;
+}
+.logo {
+  /* width: 222px;
+  height: 66px; */
+}
+.search-window {
+  margin-left: 25px;
+  align-items: center;
+}
+.top-nav {
+  padding: 16px 0px;
+  text-align: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid gray;
+  border-top: 0.5px solid gray;
+  box-sizing: border-box;
+  background-color: white;
+  text-decoration: none;
+}
+.green-nav {
+  color: greenyellow;
+}
+
+/* body */
+.body {
+  margin-top: 20px;
+  margin-left: 370px;
+  background-color: white;
+  display: flex;
+}
+
+/* .left-column */
+.left-column {
+  background-color: white;
+  width: 750px;
+}
+
+.main-notice {
+  width: 750px;
+  height: 135px;
+  border: 1px solid gray;
+}
+
+.news-box {
+  width: 750px;
+  height: 50px;
+  border: 1px solid gray;
+  margin: 12px 0px;
+}
+
+.news-table {
+  width: 750px;
+}
+.writing {
+  margin-bottom: 25px;
+}
+.writing-table {
+  margin-bottom: 20px;
+}
+.writing-link {
+  display: flex;
+}
+.sub-writing {
+  margin-left: 24px;
+}
+.main-writing {
+  border: 1px solid gray;
+  width: 365px;
+  height: 335px;
+}
+/* 왜 둘이 묶어서 하면 적용이 안되는지? */
+.sub-writing {
+  border: 1px solid gray;
+  width: 365px;
+  height: 335px;
+}
+
+/* right-column */
+.right-column {
+  margin-left: 30px;
+  background-color: white;
+}
+.login-window {
+  width: 350px;
+  height: 135px;
+  border: 1px solid gray;
+}
+.issue-box {
+  width: 350px;
+  height: 50px;
+  border: 1px solid gray;
+  margin: 12px 0px;
+}
+
+.marketing-box {
+  width: 350px;
+  height: 200px;
+  border: 1px solid gray;
+}

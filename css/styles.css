@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import "home.css";
+
+body {
+  background-color: #f1f1f1;
+}
+
+td {
+  width: 123px;
+  height: 66px;
+}
+
+th {
+  width: 95px;
+  height: 47px;
+}
+
+td,
+th,
+table {
+  border: solid 1px gray;
+  border-collapse: collapse;
+}
