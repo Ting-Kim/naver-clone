@@ -14,14 +14,19 @@
 }
 /* header & top-nav */
 .tool-bar {
-  position: absolute;
+  width: 1130px;
+  padding: 0 10px;
+  margin: 0 auto;
   top: 12px;
-  /* right: 27px; */
-  float: right;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   font-size: 11px;
   background-color: white;
+}
+.tool-bar div {
+  /* position: absolute; */
+  align-items: flex-end;
+  right: 27px;
 }
 .tool-bar-1 {
   /* padding: 0 20px; */
@@ -48,7 +53,7 @@
   padding: 25px 0px;
   margin: 0 auto;
   /* margin-bottom: 10px; */
-  background-color: white;
+  /* background-color: white; */
 }
 .logo {
   /* width: 222px;
@@ -82,25 +87,38 @@
 .search-window i {
   margin-left: 10px;
 }
-.search-icon__search {
+.search-icon__search a {
   margin-left: 10px;
-  padding: 7px 7px;
+  padding: 9px 7px;
   font-size: 24px;
   background-color: limegreen;
   color: white;
 }
+
 .top-nav {
   position: relative;
+  width: 1130px;
+  margin: 0 auto;
   padding: 16px 0px;
-  text-align: center;
-  justify-content: space-between;
-  border-bottom: 0.5px solid gray;
-  border-top: 0.5px solid gray;
-  box-sizing: border-box;
+  /* text-align: center; */
+  /* justify-content: space-between; */
+  border-bottom: 1px solid #dae1e6;
+  border-top: 1px solid #dae1e6;
   background-color: white;
-  text-decoration: none;
+  /* text-decoration: none; */
+  color: limegreen;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: -1.5px;
 }
-.green-nav {
+#green-top-nav {
+  color: limegreen;
+}
+.top-nav a {
+  margin-right: 20px;
+  color: black;
+}
+.green-nav a {
   color: limegreen;
 }
 
@@ -128,12 +146,31 @@
 }
 
 .news-box {
+  padding: 14px;
   width: 750px;
   height: 50px;
-  border: 1px solid gray;
+  border: 1px solid #dae1e6;
+  background-color: #f7f9fa;
   margin: 12px 0px;
+  font-size: 15px;
+  font-weight: bold;
 }
-
+.news-box a {
+  color: #202020;
+}
+.news-headline {
+  font-weight: lighter;
+  color: rgb(32, 32, 32);
+}
+.news-headline:hover {
+  text-decoration: underline;
+}
+.navernews {
+  color: #3565c9;
+}
+.news-kind {
+  margin-left: 70px;
+}
 .news-table {
   width: 750px;
 }
@@ -169,13 +206,48 @@
 .login-window {
   width: 350px;
   height: 135px;
-  border: 1px solid gray;
+  border: 1px solid #dae1e6;
+  background-color: #f7f9fa;
+  font-size: 14px;
+  color: gray;
+  padding: 14px 19px;
 }
+.naver-login {
+  margin-top: 0px;
+}
+
+.naver-signin {
+  position: relative;
+  margin-left: 70px;
+}
+.naver-login-btn {
+  position: relative;
+  border: none;
+  color: white;
+  background-color: limegreen;
+  width: 310px;
+  height: 45px;
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.login-window a {
+  color: gray;
+}
+
 .issue-box {
   width: 350px;
   height: 50px;
-  border: 1px solid gray;
+  border: 1px solid #dae1e6;
+  background-color: #f7f9fa;
   margin: 12px 0px;
+}
+.weather-face a {
+  background: url("../images/naver_image.png") no-repeat -719px -715px;
+  width: 34px;
+  height: 34px;
 }
 
 .marketing-box {
