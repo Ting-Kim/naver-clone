@@ -152,7 +152,7 @@
   border: 1px solid #dae1e6;
   background-color: #f7f9fa;
   margin: 12px 0px;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
 }
 .news-box a {
@@ -169,7 +169,7 @@
   color: #3565c9;
 }
 .news-kind {
-  margin-left: 60px;
+  float: right;
 }
 .news-table {
   width: 750px;
@@ -236,17 +236,18 @@
   height: 135px;
   border: 1px solid #dae1e6;
   background-color: #f7f9fa;
-  font-size: 14px;
+  font-size: 12px;
   color: gray;
   padding: 14px 19px;
 }
 .naver-login {
-  margin-top: 0px;
+  margin-top: 10px;
+  vertical-align: middle;
 }
 
 .naver-signin {
   position: relative;
-  margin-left: 70px;
+  margin-left: 100px;
 }
 .naver-login-btn {
   position: relative;
@@ -257,8 +258,8 @@
   height: 45px;
   margin: 10px 0px;
   font-weight: bold;
-  font-size: 14px;
-  letter-spacing: 0.5px;
+  font-size: 16px;
+  /* letter-spacing: 0.2px; */
 }
 
 .login-window a {
@@ -269,7 +270,6 @@
   width: 350px;
   height: 50px;
   border: 1px solid #dae1e6;
-  background-color: #f7f9fa;
   margin: 12px 0px;
 }
 
@@ -279,24 +279,67 @@
 }
 .issue-item a {
   color: gray;
+  vertical-align: middle;
 }
 
 .issue-item li {
-  padding: 0px 15px;
+  padding: 0px 10px;
 }
 .issue-item strong {
   color: black;
   font-size: 14px;
 }
+.air-item3 button,
+.issue-item strong::before {
+  background-image: url(https://s.pstatic.net/static/www/img/uit/2020/sp_main.123161.png);
+  background-repeat: no-repeat;
+  background-size: 471px 442px;
+}
 .air-item1 {
   border-right: 1px solid #dae1e6;
 }
-
-/* ::before, ::after 가상 선택자 개념..! */
-#weather-face {
-  background: url("images/naver_image.png") no-repeat -719px -715px;
-  width: 34px;
-  height: 34px;
+.air-item1 .state::before {
+  content: "";
+  margin: 0 2px;
+}
+.air-item1 .state.state_normal::before {
+  display: inline-block;
+  background-position: -359px -357px;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+.air-item2 .state::before {
+  content: "";
+  margin: 0 2px;
+}
+.air-item2 .state.state_normal::before {
+  display: inline-block;
+  background-position: -382px -357px;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+.air-item3 {
+  margin-left: 15px;
+}
+.air-item3-dong:hover {
+  text-decoration: underline;
+}
+.air-item3 .swap-btn1 {
+  margin-left: 5px;
+  background-position: -259px -213px;
+}
+.air-item3 .swap-btn2 {
+  background-position: -259px -227px;
+}
+.air-item3 button {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #dae1e6;
+  background-color: white;
 }
 
 .marketing-box {
