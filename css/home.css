@@ -169,7 +169,7 @@
   color: #3565c9;
 }
 .news-kind {
-  margin-left: 70px;
+  margin-left: 60px;
 }
 .news-table {
   width: 750px;
@@ -178,7 +178,11 @@
   margin-bottom: 25px;
 }
 .writing-table {
+  border: 1px solid #dae1e6;
   margin-bottom: 20px;
+}
+.writing-table tr {
+  font-size: 12px;
 }
 .writing-link {
   display: flex;
@@ -196,6 +200,30 @@
   border: 1px solid gray;
   width: 365px;
   height: 335px;
+}
+.bookculture:hover {
+  color: #42be6f;
+}
+.parenti:hover {
+  color: #eabf01;
+}
+.law:hover {
+  color: #1c3091;
+}
+.fashion:hover {
+  color: #8449ca;
+}
+.animal:hover {
+  color: #955f0e;
+}
+.design:hover {
+  color: #5853a0;
+}
+.china:hover {
+  color: #7e251b;
+}
+.farm:hover {
+  color: #6acc59;
 }
 
 /* right-column */
@@ -244,8 +272,29 @@
   background-color: #f7f9fa;
   margin: 12px 0px;
 }
-.weather-face a {
-  background: url("../images/naver_image.png") no-repeat -719px -715px;
+
+.issue-item {
+  display: flex;
+  font-size: 12px;
+}
+.issue-item a {
+  color: gray;
+}
+
+.issue-item li {
+  padding: 0px 15px;
+}
+.issue-item strong {
+  color: black;
+  font-size: 14px;
+}
+.air-item1 {
+  border-right: 1px solid #dae1e6;
+}
+
+/* ::before, ::after 가상 선택자 개념..! */
+#weather-face {
+  background: url("images/naver_image.png") no-repeat -719px -715px;
   width: 34px;
   height: 34px;
 }

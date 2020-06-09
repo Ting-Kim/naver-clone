@@ -26,6 +26,13 @@ th {
 td,
 th,
 table {
-  border: solid 1px gray;
+  border: 1px solid #dae1e6;
   border-collapse: collapse;
+  text-align: center;
+}
+
+ul,
+li {
+  list-style: none;
+  padding-left: 0px;
 }
