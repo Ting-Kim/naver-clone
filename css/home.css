@@ -14,14 +14,19 @@
 }
 /* header & top-nav */
 .tool-bar {
+  position: relative;
   width: 1130px;
   padding: 0 10px;
   margin: 0 auto;
   top: 12px;
+  right: -850px;
   display: flex;
   /* justify-content: space-between; */
   font-size: 11px;
   background-color: white;
+}
+.tool-bar a {
+  color: black;
 }
 .tool-bar div {
   /* position: absolute; */
@@ -283,7 +288,7 @@
 }
 
 .issue-item li {
-  padding: 0px 10px;
+  padding: 0px 9px;
 }
 .issue-item strong {
   color: black;
